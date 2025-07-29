@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    int tt;
+    cin >> tt;
+    while (tt--) {
+        int n;
+        string s;
+        cin >> n >> s;
+        if (n != 5) {
+            cout << "NO" << '\n';
+            continue;
+        }
+        sort(s.begin(), s.end());
+        if (s == "Timru") {
+            cout << "YES" << '\n';
+        }
+        else {
+            cout << "NO" << '\n';
+        }
+    }
+    return 0;
+}
