@@ -24,7 +24,7 @@ int main() {
 	for (int j = 1; j < arr.size(); j++) {
 		if (arr[i] != arr[j]) {
 			arr[i+1] = arr[j];
-			i++;
+			i++; 
 		}
 	}
 	cout << i+1 << '\n';
